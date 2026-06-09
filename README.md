@@ -2,7 +2,7 @@
 
 **Quantum-Ready IoT Protocol for Industry 4.0 — with Post-Quantum Cryptography**
 
-[![Site](https://img.shields.io/badge/site-hubstry.dev-00C9B8?style=flat-square)](https://hubstry.dev)
+[![Site](https://img.shields.io/badge/site-hubstry.dev-00C9B8?style=flat-square)](https://guilherme-machado-ceo.github.io/hubstry)
 [![Nautam Protocol](https://img.shields.io/badge/Nautam-IoT_Protocol-00C9B8?style=flat-square)](https://guilherme-machado-ceo.github.io/nautam-iot-protocol-site/)
 [![DOI HPG 1.0](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19056387-blue?style=flat-square)](https://doi.org/10.5281/zenodo.19056387)
 [![DOI Quantum Logistics](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20467804-blue?style=flat-square)](https://doi.org/10.5281/zenodo.20467804)
@@ -23,7 +23,7 @@
 **Founder:** Guilherme Gonçalves Machado — CEO/CTO/CPO  
 **Co-Founder / CMO:** Rebeca Machado  
 **Location:** Rio de Janeiro, Brazil → Seoul, Korea (planned relocation)  
-**Website:** [hubstry.dev](https://hubstry.dev)
+**Website:** [hubstry.dev](https://guilherme-machado-ceo.github.io/hubstry)
 
 ---
 
