@@ -6,7 +6,7 @@
   <title>Hubstry Deep Tech — Nautam IoT Protocol</title>
   <meta name="description" content="Hubstry Deep Tech is a Brazilian deep tech venture studio developing the Nautam IoT Protocol — a harmonic-series-based communication framework for connected devices with post-quantum cryptography." />
   <meta property="og:title" content="Hubstry Deep Tech — Nautam IoT Protocol" />
-  <meta property="og:description" content="IoT communication protocol based on the harmonic series. 50–65% energy reduction. Post-quantum secure. TRL 4→5." />
+  <meta property="og:description" content="IoT communication protocol based on the harmonic series. 50–65% energy reduction. Post-quantum secure. TRL 4 (PoC validated)." />
   <meta property="og:url" content="https://hubstry.dev" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -592,7 +592,7 @@
         <text x="320" y="23" fill="#F4A032" font-size="9" font-family="Space Mono">PQC · Kyber768</text>
         <!-- TRL badge -->
         <rect x="8" y="290" width="70" height="22" rx="3" fill="rgba(0,201,184,0.12)" stroke="#00C9B8" stroke-width="0.8"/>
-        <text x="16" y="305" fill="#00C9B8" font-size="9" font-family="Space Mono">TRL 4 → 5</text>
+        <text x="16" y="305" fill="#00C9B8" font-size="9" font-family="Space Mono">TRL 4 · PoC</text>
         <!-- Animated pulse -->
         <circle cx="210" cy="160" r="8" fill="none" stroke="#00C9B8" stroke-width="1" opacity="0.5">
           <animate attributeName="r" values="8;20;8" dur="3s" repeatCount="indefinite"/>
@@ -610,16 +610,16 @@
         <span class="stat-label">Energy reduction vs MQTT/CoAP/DDS</span>
       </div>
       <div class="stat-item">
-        <span class="stat-value">160</span>
-        <span class="stat-label">Bidimensional addresses · O₁₆</span>
+        <span class="stat-value">8–12%</span>
+        <span class="stat-label">Coordination overhead · vs 25–40% conventional</span>
       </div>
       <div class="stat-item">
         <span class="stat-value">48.6%</span>
         <span class="stat-label">CO₂ reduction · logistics demo</span>
       </div>
       <div class="stat-item">
-        <span class="stat-value">3</span>
-        <span class="stat-label">Zenodo DOIs · peer-reviewed prior art</span>
+        <span class="stat-value">TRL 4</span>
+        <span class="stat-label">PoC validated · 3 Zenodo DOIs</span>
       </div>
     </div>
   </div>
@@ -680,7 +680,7 @@
     <p class="section-lead">The Hubstry ecosystem delivers both the foundational protocol and a validated industry application — demonstrating the full stack from harmonic addressing to quantum-ready logistics optimization.</p>
     <div class="product-cards">
       <div class="product-card">
-        <span class="product-card-tag">Core Protocol · TRL 4→5</span>
+        <span class="product-card-tag">Core Protocol · TRL 4 (PoC validated)</span>
         <h3>Nautam IoT Protocol</h3>
         <p>HALE + HPG Framework — a 4-layer communication stack for connected devices based on the rational harmonic subdivision set H_N. Pure software implementation. No specialized hardware required. Runs on Raspberry Pi, Arduino, industrial PLCs.</p>
         <div class="product-card-meta">
@@ -758,7 +758,7 @@
       <p class="section-eyebrow">Protocol family — roadmap</p>
       <div class="product-cards" style="margin-top:1rem;">
         <div class="product-card">
-          <span class="product-card-tag">Active</span>
+          <span class="product-card-tag">Active · TRL 4</span>
           <h3>HPG-Core + HPG-D</h3>
           <p>Base harmonic protocol and pure digital / NCO implementation. Production-ready. Open source (CC BY 4.0).</p>
         </div>
@@ -766,6 +766,17 @@
           <span class="product-card-tag">Research → PoC target Korea</span>
           <h3>HPG-R · Intelligent Robotics</h3>
           <p>Harmonic hierarchy for humanoid robotic subsystem coordination. Direct fit for Korean robotics industrial ecosystem (Hyundai Robotics, KAIST, Samsung Research).</p>
+        </div>
+        <div class="product-card">
+          <span class="product-card-tag">Published · DOI 10.5281/zenodo.20184616</span>
+          <h3>HMAL · Marine Acoustic Layer</h3>
+          <p>Adaptation of HPG for underwater acoustic communication — overlay over NATO C2/JANUS standard. Application: oceanographic monitoring, cetacean bioacoustics research, next-generation ship infrastructure. Anti-jamming harmonic channel hopping determinístico.</p>
+          <a href="https://doi.org/10.5281/zenodo.20184616" class="doi-link" target="_blank">DOI: 10.5281/zenodo.20184616 · CC BY 4.0 ↗</a>
+        </div>
+        <div class="product-card">
+          <span class="product-card-tag">Research</span>
+          <h3>HPG-Sec · Acoustic Cryptography</h3>
+          <p>Timbral PUF (Physical Unclonable Function) authentication — device identity derived from physical material signature. Application: hardware anti-counterfeiting in industrial and defense supply chains.</p>
         </div>
       </div>
     </div>
@@ -778,6 +789,25 @@
     <p class="section-eyebrow">04 · Validation</p>
     <h2 class="section-title">Benchmarked. Published. Reproducible.</h2>
     <p class="section-lead">The Quantum Logistics demonstration was benchmarked against Google OR-Tools — the industry standard for Vehicle Routing Problems — on real GPS data from Porto, Portugal (442 taxis, 30 delivery points).</p>
+
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1px;border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:2rem;">
+      <div style="background:var(--bg2);padding:1rem;text-align:center;">
+        <span style="font-family:var(--font-mono);font-size:1.3rem;font-weight:700;color:var(--teal);display:block;">~8–12%</span>
+        <span style="font-size:0.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.08em;">Nautam overhead</span>
+      </div>
+      <div style="background:var(--bg2);padding:1rem;text-align:center;">
+        <span style="font-family:var(--font-mono);font-size:1.3rem;font-weight:700;color:var(--amber);display:block;">~25%</span>
+        <span style="font-size:0.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.08em;">CoAP overhead</span>
+      </div>
+      <div style="background:var(--bg2);padding:1rem;text-align:center;">
+        <span style="font-family:var(--font-mono);font-size:1.3rem;font-weight:700;color:var(--amber);display:block;">~35%</span>
+        <span style="font-size:0.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.08em;">DDS overhead</span>
+      </div>
+      <div style="background:var(--bg2);padding:1rem;text-align:center;">
+        <span style="font-family:var(--font-mono);font-size:1.3rem;font-weight:700;color:var(--amber);display:block;">~40%</span>
+        <span style="font-size:0.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.08em;">MQTT overhead</span>
+      </div>
+    </div>
     <table class="bench-table">
       <thead>
         <tr>
