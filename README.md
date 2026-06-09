@@ -6,7 +6,7 @@
 [![Nautam Protocol](https://img.shields.io/badge/Nautam-IoT_Protocol-00C9B8?style=flat-square)](https://guilherme-machado-ceo.github.io/nautam-iot-protocol-site/)
 [![DOI HPG 1.0](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19056387-blue?style=flat-square)](https://doi.org/10.5281/zenodo.19056387)
 [![DOI Quantum Logistics](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20467804-blue?style=flat-square)](https://doi.org/10.5281/zenodo.20467804)
-[![TRL](https://img.shields.io/badge/TRL-4_%E2%86%92_5-yellow?style=flat-square)](https://github.com/guilherme-machado-ceo/iot-protocol-hubstry)
+[![TRL](https://img.shields.io/badge/TRL-4_PoC_Validated-yellow?style=flat-square)](https://github.com/guilherme-machado-ceo/iot-protocol-hubstry)
 [![ISO 42001](https://img.shields.io/badge/ISO%2FIEC_42001-Certified_2026%2F53%2FIPQ-green?style=flat-square)](https://orcid.org/0009-0008-1083-0784)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--1083--0784-A6CE39?style=flat-square)](https://orcid.org/0009-0008-1083-0784)
 
@@ -43,7 +43,8 @@ Instead of devices competing for bandwidth (conventional MQTT/CoAP/DDS), Nautam 
 | Hardware requirement | **None** (pure software implementation) |
 | Unique addresses · O₁₆ | **160 bidimensional** |
 | Post-quantum security | **Kyber768 / Dilithium3** (NIST PQC standards) |
-| TRL | **4 → 5** |
+| Coordination overhead | **~8–12%** vs MQTT ~40%, CoAP ~25%, DDS ~35% |
+| TRL | **4** (PoC validated — Python/C++ codebase, dashboard, HSL Auth 500 cycles) |
 
 ### Protocol Architecture
 
@@ -58,11 +59,16 @@ Instead of devices competing for bandwidth (conventional MQTT/CoAP/DDS), Nautam 
 
 | Variant | Focus | Status |
 |---|---|---|
-| **HPG-Core** | Base harmonic protocol | Active |
-| **HPG-D** | Pure digital / NCO implementation | Active |
+| **HPG-Core** | Base harmonic protocol | Active · TRL 4 |
+| **HPG-D** | Pure digital / NCO implementation | Active · TRL 4 |
 | **HPG-Sec** | Acoustic cryptography — timbral PUF authentication | Research |
 | **HPG-R** | Intelligent robotics — harmonic hierarchy per subsystem | Research → Korea PoC target |
+| **HMAL** | Marine Acoustic Layer — underwater communication, NATO C2/JANUS overlay, oceanographic monitoring | Published · DOI [10.5281/zenodo.20184616](https://doi.org/10.5281/zenodo.20184616) |
 | **HPD-T** | Temperament-derived addressing (12-TET to 96-tone) | Research |
+
+## Business Model — The ARM Analogy
+
+Hubstry's long-term revenue model is royalty-per-device — structurally analogous to ARM Holdings. ARM does not manufacture chips; it owns the instruction set architecture and collects royalties from every device that implements it. ARM was acquired by SoftBank for USD 32 billion in 2016 on the strength of that licensing model alone. Nautam does not manufacture hardware: it owns the harmonic communication protocol and licenses it to device manufacturers, industrial integrators, and government infrastructure operators. Every IoT device that implements HPG generates a royalty. With 30 billion devices projected by 2030, the addressable licensing base is structural — not dependent on winning individual procurement contracts. The Korean market, as the world's most robot-dense industrial economy, is the optimal first deployment environment for this model.
 
 ---
 
@@ -95,6 +101,7 @@ All core Hubstry frameworks are published open access on Zenodo:
 | Year | Publication | DOI | License |
 |---|---|---|---|
 | 2026 | Quantum-Ready Sustainable Logistics MVP (v0.3.0) | [10.5281/zenodo.20467804](https://doi.org/10.5281/zenodo.20467804) | CC BY-NC-SA 4.0 |
+| 2026 | HMAL: Mapeamento Harmônico Racional de Vocalizações Cetáceas | [10.5281/zenodo.20184616](https://doi.org/10.5281/zenodo.20184616) | CC BY 4.0 |
 | 2025 | Harmonic Protocol Grid (HPG 1.0) | [10.5281/zenodo.19056387](https://doi.org/10.5281/zenodo.19056387) | CC BY 4.0 |
 | 2025 | HALE: Harmonic Addressing & Labeling Equation | [10.5281/zenodo.18901934](https://doi.org/10.5281/zenodo.18901934) | CC BY 4.0 |
 
