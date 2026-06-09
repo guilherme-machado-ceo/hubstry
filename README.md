@@ -184,7 +184,8 @@ guilherme-machado-ceo/hubstry-hale-ecosystem ← HALE mathematical framework
 **Email:** guilhermemachado@hubstry.onmicrosoft.com  
 **LinkedIn:** [guilhermegoncalvesmachado](https://www.linkedin.com/in/guilhermegoncalvesmachado)  
 **GitHub:** [guilherme-machado-ceo](https://github.com/guilherme-machado-ceo) · [Hubstry-DeepTech](https://github.com/Hubstry-DeepTech)  
-**Nautam Site:** [nautam-iot-protocol-site](https://guilherme-machado-ceo.github.io/nautam-iot-protocol-site/)
+**Nautam Site:** **Website:** [hubstry.dev](https://guilherme-machado-ceo.github.io/hubstry)
+
 
 ---
 
